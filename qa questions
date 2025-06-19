@@ -1,0 +1,456 @@
+
+                                              20/5/2025
+what is git fetch and git pull 
+
+git revert and git reset 
+
+how to check pid of backgroound job 
+
+what is echo $$,echo $? 
+
+how to combine all commits and merge to one commit? 
+
+what is shared library 
+
+what is scripted pipeline and declarartive pipeline 
+
+give some plugins in jenkins 
+
+some code changes on your repo or on your branch n there is some immediate work.so what do we have to do in scenrio? 
+
+what are the keys used for encrption? 
+
+where to store customer managed key? 
+
+how to host a static application in aws ???and what services needed 
+
+which storage is best for highly availabilty ,high frequency and cost?? 
+
+what is the use of tax in ec2? 
+
+how to restrict access in efs and ebs? 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                              21/5/2025
+To find all empty files in the current directory and subdirectories:
+find . -type f -empty 
+---------------------------------------------------------
+Enable debug mode and disable it 
+set -x and set +x
+-----------------------------------------------------------
+' vs " 
+name="World"
+echo 'Hello $name'   # Outputs: Hello $name
+echo "Hello $name"   # Outputs: Hello World
+-----------------------------------------------------------
+what is echo $? 
+echo $? in bash prints the exit status of the last executed command.
+-----------------------------------------------------------
+What is echo $! 
+echo $! in bash prints the process ID (PID) of the most recently started background job.
+-----------------------------------------------------------
+How do you search if file exists or not in folder? 
+if [ -e "/path/to/file" ]; then
+    echo "File exists."
+else
+    echo "File does not exist."
+fi
+-----------------------------------------------------------
+How to list all events file in linux 
+
+-----------------------------------------------------------
+I am trying to execute some command and i want to supress the output 
+some_command > /dev/null  (Suppress only stdout (still shows errors):)
+some_command 2> /dev/null (Suppress only stderr)
+-----------------------------------------------------------
+How to check whether the file has content or not 
+#!/bin/bash
+
+FILE="example.txt"
+
+if [ -s "$FILE" ]; then
+    echo "File '$FILE' has content."
+else
+    echo "File '$FILE' is empty or does not exist."
+fi
+-----------------------------------------------------------
+find the url link regular expression in file and list it 
+grep -Eo 'https?://[^ ]+' file1.txt
+-----------------------------------------------------------
+write a Bash script with some echo commands to print arguments.
+#!/bin/bash
+
+echo "Script name: $0"
+echo "First argument: $1"
+echo "Second argument: $2"
+echo "All arguments: $@"
+echo "Total number of arguments: $#"
+-----------------------------------------------------------
+ how you can do scaling (floating point) and division in bash scripting with echo and bc (the calculator):
+echo $((10 / 3))         (Integer division)	
+# Output: 3
+
+echo "scale=2; 10 / 3" | bc    (Floating point div)
+# Output: 3.33
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                              22/5/2025
+what is serveless service?
+what is lambda and its uses and its advantages and disadvantages
+what is vpc?
+what is public and private subnet?
+components of vpc
+how to make subnet public and private
+private subnet want to send information to outside give me config
+nat gateway?
+what is internet gateway
+what is route table
+where the security groups come here?
+what is difference betwwen sg and nacl
+what is disadvantage of vpc peering
+what is disadvantages of lambda?
+libraries of lambda?
+end points?
+How to Launch an EC2 Instance in a Private Subnet
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                              23/5/2025
+Tasks:
+
+enable life cycle policy for s3
+perform bastion host(create private instance from one account and another bastion server in another instance)
+create vpc and public subnet and private subnet
+create a lambda to restart a instance
+create two users and create group and add users to agroup and try to add some policies individaully to a group level and so the policy should be different for group level and user level
+
+
+
+===============================================================================================================================================================
+                                              26/5/2025
+what is list and tuple?
+why list are mutable and tuples are immutable?
+built in data types?
+built in models?
+what is slicing in python?
+what is cloud formation??
+what is vpc endpoint?
+Types of VPC Endpoints:
+which services Supports gate way endpoint?
+what is transit gateway?
+what is intra and inter transit gateway?
+what are different types of purchasing options in aws?
+when we create a transit gateway between two vpcs what we have to enable?
+what are nacls?
+when we create nacls there are some rules what are they?
+Why are there gaps between NACL rule numbers?
+how static routes and route propagation work with AWS Transit Gateway.
+general categorization of instance type
+what is arn number?
+what is static ip?
+when do we use elastic ip?
+what is ami?
+Tenancy in EC2
+edge location in aws?
+"Burstable" in AWS?
+what is difference between cloud watch and cloud trail
+difference between nacl and sg?
+what is session manager?
+what are snapshot?
+Different OS Layers or Components in AWS context:
+What is Disaster Recovery?
+what is latency?
+give some services of az specific and region specific?
+what is bastion host?
+give some services of az specific and region specific and global specific?
+The difference between scp and rsync?
+libararies in lambda?
+types of policies in iam?
+what is active directory?
+what are the different types of cloud computing models
+git revert n git reset
+git stash  and git unstash?
+git cherrypick
+git squash
+git rebase
+
+===============================================================================================================================================================
+                                               29/5/2025
+concantization vs virtualization
+advantages of concantization
+what is docker
+how to remove the image with mutiple tags
+how to  rename the image name and image tag
+how to create container from image
+different types of hypervisor
+how to delete the ruuning container?
+Why Can't You Delete a Running Container Directly?
+how to get inside into container?
+how to start the container?
+how to remove mutiple containers?
+how to list the containers?
+What are Dangling Images in Docker?
+how  to check logs of the container
+why do you want to check the logs?
+How to do port forwarding with Docker containers?
+What is docker inspect?
+
+
+===============================================================================================================================================================
+                                               30/5/2025
+
+give a command to pull the image
+give a command to list the images
+command to change the tag of existing image
+Delete a Tagged Docker Image
+what is the column created while we are listing the images?----The "CREATED" column shows when the Docker image was built, not when it was pulled or listed.
+ How to Untag a Docker Image
+how to tag the none repo?====docker tag <image_id> <new_repo>:<new_tag>
+how to list layers?
+what is dangling images
+how to rename the image?======docker tag my-old-image:latest my-new-image:latest   docker rmi my-old-image:latest(optional)
+how to list the dangling images?======docker images -f dangling=true
+command to create container from the image?
+If you want to run a container in the background using -d, then what is the need of the -it flags.???
+         Some programs inside the container require a TTY (terminal) to run properly.
+         If you’re just running a service (like a web server) in the background, you only need:docker run -d <image>
+how to get inside container?
+          docker exec -it <container_id_or_name> /bin/bash
+          Alternative: Using docker attach(docker attach connects you to the container’s main process (the one started by the original docker run command).
+
+If you get an OCI runtime error when running???
+          Some containers (especially minimal ones like Alpine) don’t have /bin/bash,Try using /bin/sh instead
+docker exec <container_id_or_name> /bin/sh
+            without -it, Docker will execute the shell, but:
+            You won’t have an interactive terminal.
+            The shell will start, but since you’re not attached interactively, you won’t see a prompt or be able to type commands.
+            The command will just run and immediately exit, so it’s usually not useful for interactive access.
+
+how to list only container ids?  (To list only the container IDs of running containers= docker ps -q)   (all containers=docker ps -aq)
+how to inspect conatiner?docker inspect running-my-container
+how to list process of single container
+how to check state of container?
+how to check status of container?
+
+
+
+
+===============================================================================================================================================================
+
+                                              2/6/2025
+
+what are regional and az ?
+what are pricing plannings in aws
+what is iam role
+what are the cloud computing models
+what is cloud watch and cloud trail
+what are types of ec2 instances
+“Suppose you have two instances running and suppose for one instance you are stopping the instance and the other instance you terminate it. 
+And both instances have EBS volume attached to them. 
+Okay, when you're performing stop and terminate, what happens basically?”
+what ia ami
+what is elastic ip
+can u attach multiple ebs to instance?
+To SSH into an EC2 instance, the general command is?
+ur instance is terminated suddenly how can u debug it?
+what is snapshots?
+once instance is created can we change the instance type?
+what is crossaccount?
+what is vpc
+what is internet gateway?
+suppose u have private subnet i want to access to internet ?
+difference sg vs network acls?
+per region how many vpc can we create?
+To connect two VPCs, you have several options depending on your use case. what are they?
+what is vpc peering?
+difference vpc peering and transit gateway?
+various types of ec2 instance?
+what is various checks during launching instance?
+How to Secure an EC2 Instance
+how can you control traffic?
+what is cloud computing
+what are storage options available in aws ?
+what is on demand pricing?
+suppose i choose reserved instance can i change it after three months the instance type?
+suppose i choose savings instance can i change it after three months the instance type?
+How to Restrict Access at the S3 Bucket Level
+suppose i have two public subnets but instances are not able to connect to internet?
+what are the core services in aws?
+Common Use Cases for AWS Lambda?
+how AWS Lambda billing works:
+WHAT ARE VARIOUS STORAGES IN S3?
+can we share one instance ami to another aws account?
+WHat athe various services that are options available to monitor aws resources?
+can a pulic subnet work without internet gateway?
+can you mount same efs in different regions?
+can you mount same ebs in different regions?
+what is transit gateway?
+difference between transit gateway and vpc peering
+what is iam permission boundaries?
+What are Permission Boundaries?
+what is bastion host?
+is s3 region specific?
+can we pause s3 bucket?
+
+=================================================================================================================================================================================================================================================================================================================
+
+
+                            4/6/2025
+
+
+
+where is store custom images
+what is docker file
+what is custom image 
+why we need custom image
+what are the instructions in docker 
+how to run multiple shell commands, like listing files, copying them, and changing their permissions.
+what is env
+If I have to pass an ENV file, where should that file be located?
+how can we pass env variable in build time?
+Why we are using env file?
+why we are setting env variables??
+Copy vs add in docker file 
+what is zip and tar
+why add instruction doens't support zip 
+cmd vs entrypoint 
+what are the base images that we use and why we choose that base image
+What are light weight base images and why?
+how can we login into Direct path into container during runtime
+how to override the default cmd 
+command for building a custom image 
+why u prefer name a file as docker file
+some real-world scenarios where you might want to override the CMD in a Docker image when running a container.
+how to delete all the images 
+if i want to delete few images with single command how??
+what is dangling images 
+how to delete dangling images 
+what will be deleted if i use prune command 
+why we use prune command
+difference between vm and container
+
+
+==========================================================================================================================================================
+
+                5/6/2025
+what is docker network 
+what are types of docker network 
+what is none network and give real time examples 
+what is command for creating custom build network and how to connect to a container 
+Give acommand for Custom bridge network and how to connect to a container 
+what is overlay network 
+explain maven lifecycle
+what is the extension of file after we build maven
+what is  difference between delivery and deployment stage 
+Delivery vs Deployment
+give build tools
+what is git stash
+How to restore changes from git stash back to uncommitted state (working directory)
+what is webhook and scheduled jobs in jenkins 
+What are Parameters in Jenkins Pipeline?
+difference between ebs,efs,s3
+what is stateful and stateless in aws
+what is cloud formation 
+what is load balancer and auto scaling
+what is serveless service and give example 
+give different kinds of job in jenkin
+Whaat is declarative and scripted pipeline 
+What are the different merging strategies in git
+
+==========================================================================================================================================================
+
+
+             6/6/2025
+
+1. Create a container on host network with application code provided by Harsha.
+2. 1. Create a container on bridge network with application code which is flask application code 
+
+
+
+========================================================================================================================================
+
+
+         10/6/2025
+
+what is host network and real time example where it is uded
+what is multi stage build and advantages of it
+Why volume mount is more persistent 
+what is advantage and disadvantage of volume mount and bind mount
+what are the types of network?how does custom networks useful?
+how to use multi stage build in a dockerfile ?how you call it in the next stages?
+
+===========================================================================================================================================
+            11/6/2025
+what is cloud formation 
+what is template 
+what language are used in template
+1. what is stack?
+2. what is an IAC generator?
+3. Stack option?
+4. How do you create a stack? What's it called
+5. What is the S3 URL below its showing? While creating a stack
+6. If you delete the EC2 instances, what will happen? Drift be created? how & why
+7. Did you explore Infrastructure Composer? What is the infrastructure composer?
+8. Can you explain template source, like we have S3, upload template, and git sync,
+    9. what is stackset? 
+    10. What is a nested stack? Real-time scenario?
+11. what is create change set(preview) & make direct update ?(no preview)
+   12. What is from port & to port under the security group in the template
+13. What is the intrinsic function?
+14. What is are update stack?
+15. what are the blocks ?
+   16. components of cloudformation tempalte ?
+
+
+===========================================================================================================================================
+               16/06/2025
+
+
+What is a multistage build?
+What-- target in multi-stage build? -->  it will stop the build at a particular stage
+How do you handle or build without dependencies?
+How will we copy data from the required file from one stage to another stage?
+How do you call multiple FROM statements in a Docker file?
+Optimize Docker file?
+Can we have different images in a multi-stage build
+What will be the execution point in the Dockerfile?
+CMD VS Entrypoint?
+
+
+
+===========================================================================================================================================
+
+          17/6/2025
+
+architecture of kubernetes 
+what is orchestration in kubernetes 
+Should a Pod have a single container or multiple containers?
+what is deployment controller
+what is difference between docker and kubernetes 
+what is selector and label and give example where to implement this
+what are different types of controller 
+Which object directly interact with pods
+what is cri
+If I want to migrate my Kubernetes setup (data, apps, etc.) to the cloud — how do I do that?"
+what is etcd and what do you mean by reliable in etcd
+what is replicaset and replication 
+what are different types of selectors
+which Higher-level controller that uses ReplicaSet
+Are there any chances for daemon controller to create two pods in single worker node
+Will daemon set automatically create a pod if I add worker node later
+I want to create two replicas of pod with same configuration which controller is best to use
+
+
+===========================================================================================================================================
+                            18/6/2025
+how to find the specific AWS EC2 instance (worker node) where your Kubernetes pod is running — even if you have 50 worker nodes
+
+===========================================================================================================================================
+
+                19/6/2025
+
+1 when you can reuse the same port and when you cannot ??
+2 If I make changes inside the container directly, will that be reflected in the config file (like YAML)?
+And how can I get that updated config?”
+3 Update the image version in a Deployment YAML, and verify if the Pod gets updated (rolled out).
