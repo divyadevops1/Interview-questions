@@ -1,0 +1,78 @@
+✅ What is Horizontal Pod Autoscaling (HPA) in Kubernetes?
+Horizontal scaling = scaling out/in → adding/removing pod replicas.
+
+HPA automatically adjusts the number of pods in a Deployment, ReplicaSet, or StatefulSet based on observed metrics like:
+
+CPU utilization (default)
+
+Memory usage
+
+Or custom/external metrics (with proper adapters)
+
+📌 Example:
+If CPU usage > 80%, HPA can increase pod replicas from 2 → 4.
+
+✅ What is Vertical Scaling in Kubernetes?
+Vertical scaling = scaling up/down → increasing/decreasing resources (CPU/memory) for a pod.
+
+This is done by adjusting the resources.requests and resources.limits of a container.
+
+Kubernetes does NOT do vertical scaling automatically by default, but tools like:
+
+Vertical Pod Autoscaler (VPA) can help
+
+VPA can recommend or apply resource changes
+
+📌 Example:
+Change pod CPU from 500m to 1000m.
+
+✅ Does Kubernetes Automatically Do HPA?
+No, Kubernetes does not apply HPA by default.
+You must:
+
+Deploy the metrics server
+
+Create an HPA object manually using:
+
+bash
+Copy
+Edit
+kubectl autoscale deployment <name> --cpu-percent=50 --min=1 --max=5
+So, you must configure HPA, and install the metrics server first.
+
+✅ What is metrics-server in Kubernetes?
+A cluster add-on that collects resource metrics (like CPU, memory) from nodes and pods.
+
+Required for HPA and VPA to work.
+
+It serves metrics via the Kubernetes API.
+
+📌 Without metrics-server, autoscalers (like HPA) won’t have data to decide scaling.
+
+✅ What are Kubernetes SIGs (Special Interest Groups)?
+SIG = Special Interest Group
+
+Kubernetes has multiple SIGs—community groups focused on different areas of the project:
+
+Example SIGs:
+
+sig-node: node-related features
+
+sig-scheduling: pod scheduling
+
+sig-storage: persistent storage
+
+sig-auth: security and authentication
+
+They define standards, roadmap, features, and code contributions in those areas.
+
+You can find them here: https://github.com/kubernetes/community/tree/master/sig
+
+⚡ Summary Table:
+Feature	Description
+Horizontal Scaling	Adds/removes pod replicas
+Vertical Scaling	Adjusts CPU/memory of a pod
+HPA	Auto-scales pods based on metrics (CPU/memory/custom)
+metrics-server	Collects live metrics for HPA/VPA
+SIGs	Community working groups for specific Kubernetes features
+
