@@ -27,7 +27,41 @@ How to create a user with a password in AWS CLI.
 How to prevent scheduling on a particular node.
 
 
-[11:19 AM, 8/12/2025] Divya: CloudWatch Logs Insights — what is it?
+
+how to design vpc as highly available 
+2....what is lambda
+3...what is api server
+4..how to make jenkins pipeline secure 
+5..what is solar  qube n how to integrate it
+6...In k8s how do you limit the resources in namespace 
+7...what is difference between github actions n Jenkins 
+8...How to setup branch protection rules
+9...what is free style job in jenkins 
+10..what is declarative pipeline 
+11...How to check whether the deployment is successful or not
+12...how to release application using canary deployment 
+13.. what is upstream n downstream job in jenkins 
+14.,How to collaborate with developer n operation team as a devops engineer 
+15..how would you apply Root Cause Analysis to find why only one client can’t open the app while the others can.
+16..what is post build actions in jenkins 
+17...what is shared libraries in jenkins 
+18...Whaat is root cause analysis 
+19..How to handle secrets in kubernetes 
+20..How to configure Master n slave nodes in jenkins 
+21...u have application running in 4 pods n increased the  pods using hpa how the pods get added ??
+22..[9:30 AM, 8/13/2025] Liz Baby: oined now:
+Docker build using a file
+ S3 lifecycle
+⁠s3 versioning -why
+list all processes in docker
+.Restrict access to ec2
+.Replace an unresponsive EC2
+Resize EBS
+.Where are mount points defined
+.Take a backup of s3
+
+
+ CloudWatch Logs Insights — what is it?
 Presigned URL — what is it?
 Modifying a VPC in AWS.
 How to commit the n-5th commit in GitHub.
@@ -479,3 +513,221 @@ Introduce as a devops engineer?
 19---what is pv and pvc
 20-- what is statefile in terraform?
 21-- If you created a PersistentVolume (PV) and a PersistentVolumeClaim (PVC) but your Pod is stuck in Pending state,?? why??
+How do you check vulnerabilities in a Docker image?
+How will you deploy a new application in Docker and Kubernetes?
+What is a storage class in Kubernetes?
+What is AWS Service Catalog?
+How is Service Catalog different from CloudFormation in AWS?
+How would you create a product catalog?
+What is a state file in Terraform?
+What are probes in Kubernetes?
+I have an application which is going down after 30 minutes; what probe will you configure to check the health of the application?
+How does pod-to-pod communication happen in Kubernetes?
+What is a DaemonSet in Kubernetes? Tell some use cases.
+How will you log in to a pod?
+What is a workspace in Terraform?
+Softlink vs hardlink.
+How do you list open ports in Linux?
+Create probes for a StatefulSet application.
+You have installed software on 10 different VMs; how do you check whether the software is installed on each VM (Ansible facts)?
+What is an inline policy?
+What are guardrails and types of guardrails in AWS?
+What are local and output variables in AWS?
+What are state files in Terraform?
+
+What is etcd degraded?
+What is parallel execution?
+Have you ever configured Jenkins port?
+What is Jenkins current version?
+What is the latest version of Kubernetes?
+How do you secure your containers?
+How do you pass environment variables during build time?
+What are probes?
+What are the namespaces in a Linux container?
+What is Ansible Control Tower?
+What is a kernel panic error?
+What is a Linux distribution?
+What is a 503 error?
+What is an HTTP error?
+What is QoS?
+What are custom resource definitions?
+
+How do you create an S3 bucket?
+How do you create an EC2 instance?
+How do you create an IAM role with a policy that grants EC2 read/write access to the S3 bucket?
+How do you attach the role to the EC2 instance?
+
+What is interpreting pods between nodes?
+What is API Gateway?
+How to make etcd highly available and what algorithm is used?
+What is a cross-account role?
+How to make Jenkins master node highly available?
+ECS vs EKS — which is better?
+What is a trust policy in a cross-account role in AWS?
+Give a full step-by-step checklist to debug pod-to-pod communication — especially across nodes in Kubernetes.
+If you’re using an Auto Scaling Group (ASG) in AWS (with EKS or EC2) and scaling is taking too long, how do you optimize ASG for faster scaling?
+How many ways can you trigger a Lambda function?
+How do you check who deleted the state file?
+You have a state file in S3 and someone deleted it by mistake; how do you back up only the state file, not the resources?
+What are secure ways to store the state file?
+In Jenkins, what is the difference between scripted and declarative pipelines?
+In Jenkins, what are shared libraries?
+What is canary deployment?
+How do you implement rollback deployment in Jenkins?
+What is build versioning?
+What are hot fixes in Git?
+How does the scheduler decide on which node to schedule a pod?
+Difference between taint/toleration, affinity, and node affinity.
+What is a stateful application?
+What is RBAC?
+What is a service account in Kubernetes?
+What is a namespace?
+How can two services in different namespaces communicate?
+What is a bottleneck?
+What is a lockfile in a state file?
+
+You have an S3 bucket, versioning is disabled. If you manually enable versioning, what will happen when you run terraform plan next?
+What is a state file in Terraform?
+You are assigned a task to detect failure before it happens; how do you predict it?
+What is Helm used for?
+You have two services with a planned change tonight; how can the change be handled?
+Strategies in databases?
+You have AWS resources running your application. A product listed on your e-commerce site suddenly has increased traffic; what would you do?
+If there is a failure in one region, how do you convince the team to have multiple regions?
+What is SLA and SLO?
+You have a Kubernetes cluster; you need three services running and communicating — which services would you use?
+You need to establish communication between two services running in different namespaces; how do you do it?
+There is a recent change in RBAC; how do you roll it back?
+Your etcd cluster is corrupted and you need to restore it without losing data; how do you do it?
+What is Helm?
+You are done for the day, waiting for developers for environment variables. You have a sister application with the same variables; how do you replicate the secrets and config maps?
+What does kubectl describe do?
+How do ASG and load balancer work together?
+What is taint and toleration?
+If you get merge conflicts, what suggestions do you give developers to reduce conflicts?
+Difference between revert and rebase?
+How do you raise a PR?
+Multiple ways to trigger Lambda?
+What is a namespace?
+When you hit DNS/UI you should get a response from UI and DNS/API a response from API — how do you achieve this?
+What is NGINX and what is it used for?
+A namespace was deleted; how do you recover it?
+How do you restore if someone deleted the main branch in Git?
+If the application has been down for a long time without alerts, how do you debug it with all monitoring tools configured?
+What is TTL in DevOps?
+What does TTL do in Route 53?
+You have cross-cloud interconnect latency that increased from 5 sec to 80 sec; how do you figure out the issue?
+How do you check latency?
+30% of your EC2 instances are not working; some give errors, some respond fine — what is happening?
+
+DNS issue in Kubernetes for all pods — where do you check?
+How to access a service from within the cluster / enable communication using services?
+ASG is creating new scaling groups, but traffic is assigned before they are up — how to prevent?
+Pods getting deleted due to memory pressure, but kubectl top shows plenty of memory — why?
+State file?
+Helm?
+
+Introduce yourself as a DevOps engineer.
+What is your role in your project? What was the project about?
+How do you set up monitoring?
+How do you secure Kubernetes services?
+How do you secure Kubernetes using liveness and readiness probes?
+Someone has changed the database password — how do you monitor it?
+Explain rolling update, blue/green deployment, and canary deployment.
+If your application or EC2 instance is in a private subnet, how do you SSH into it?
+What is an ingress controller?
+How do you connect on-premises infrastructure to the cloud?
+You have a microservice depending on a single AZ resource; how do you make it highly available across multiple AZs?
+How do you spread HPA pods across multiple Availability Zones in Kubernetes?
+What is pod topology?
+What is SLA?
+What happens if you breach the SLA?
+How do you start your day?
+How frequently do you deploy an application?
+What is the OSI model?
+What is PV and PVC?
+What is a state file in Terraform?
+If you created a PersistentVolume (PV) and PersistentVolumeClaim (PVC) but your pod is stuck in Pending state, why?
+
+How to design VPC as highly available?
+
+What is Lambda?
+
+What is an API server?
+
+How to make a Jenkins pipeline secure?
+
+What is SonarQube and how to integrate it?
+
+In Kubernetes, how do you limit resources in a namespace?
+
+Difference between GitHub Actions and Jenkins?
+
+How to setup branch protection rules?
+
+What is a freestyle job in Jenkins?
+
+What is a declarative pipeline?
+
+How to check whether a deployment is successful or not?
+
+How to release an application using canary deployment?
+
+What are upstream and downstream jobs in Jenkins?
+
+How to collaborate with developers and operations teams as a DevOps engineer?
+
+How would you apply root cause analysis to find why only one client can’t open the app while others can?
+
+What are post-build actions in Jenkins?
+
+What are shared libraries in Jenkins?
+
+What is root cause analysis?
+
+How to handle secrets in Kubernetes?
+
+How to configure master and slave nodes in Jenkins?
+
+You have an application running in 4 pods and increase the pods using HPA—how do the pods get added?
+
+Liz’s Questions:
+
+Docker build using a file
+
+S3 lifecycle
+
+S3 versioning – why is it used?
+
+List all processes in Docker
+
+Restrict access to EC2
+
+Replace an unresponsive EC2
+
+Resize EBS
+
+Where are mount points defined?
+
+Take a backup of S3
+
+ Creation of Lambda and Use Cases – Steps to create an AWS Lambda, common scenarios where it’s used.
+API Gateway AWS – What it is, how it works.
+What is a Lambda Function 
+How Lambda is Triggered 
+What is a VPC 
+How to Create Private and Public Subnets – 
+Difference between Public and Private Subnet 
+Amazon Cognito Resource Pull 
+null_resource in Terraform 
+Sidecar Container – What it is
+locals block vs data block in Terraform 
+Use Case for depends_on in Terraform – When and why to use it.
+Rolling Update in Kubernetes 
+locals block in Terraform 
+sprint planning
+self introduction
+host a static website using aws
+null resource
+how do u refrence existing cloud resources in tf?for eg, get the instance id of an existing ec2
+ Introduction about self
