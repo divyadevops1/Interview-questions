@@ -26,6 +26,46 @@ How to create a user with a password in AWS CLI.
 
 How to prevent scheduling on a particular node.
 
+
+[11:19 AM, 8/12/2025] Divya: CloudWatch Logs Insights — what is it?
+Presigned URL — what is it?
+Modifying a VPC in AWS.
+How to commit the n-5th commit in GitHub.
+Different Git branching strategies.
+Releasing branching strategies.
+Presigned URL (asked again).
+.bashrc and .profile files in Linux.
+How to distribute notifications in AWS.
+Fan-out architecture of SNS.
+How to avoid duplication in SNS notifications.
+Scaling an application in EKS.
+Lambda Layers — what are they?
+“A silver tower” (clarified as Ansible Tower).
+Ansible Tower — what is it?
+Service Account in Kubernetes.
+emptyDir volume in Kubernetes.
+[11:19 AM, 8/12/2025] Divya: Types of file system
+Group policy
+UDP
+How to documenting on UDP
+Disaster recovery
+CI/CD with the tools
+CrashLoopBackOff error
+What is your day to day activity for a DevOps role
+DevOps interview questions from basic
+[11:19 AM, 8/12/2025] Divya: What all I need to know about the Jira ticketing tool as a DevOps engineer?
+What are common Jira interview questions and answers for DevOps roles?
+How do you integrate Jira with CI/CD tools like Jenkins or Git?
+What is the difference between Jira issue types like Story, Task, Bug, and Epic?
+How to customize Jira workflows for DevOps processes?
+How to handle incident management in Jira?
+Can Jira track deployment history or release versions?
+How to create Jira automation rules for DevOps?
+How to link Jira tickets with Git commits and pull requests?
+How to manage sprints and boards in Jira from a DevOps perspective?
+Can Jira be used for change management in DevOps?
+ Introduce as a Devops engineer
+
 Facing many issues during a Kubernetes deployment. How to prevent these issues next time?
 
 How to make a replica highly available.
