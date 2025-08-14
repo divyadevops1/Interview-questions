@@ -1,0 +1,441 @@
+Ebs and efs
+What is dynamic inventory in ansiible
+What is ecs
+What is nat gateway
+If u want less conflicts then what u will suggest to the developer 
+How can I run multiple stages in jenkins at one time
+Nodes are healthy and application is not ready I want to make wait k8s for waiting application to be raedy
+When pods take a lot of time to ready what is the reason for unhealthy
+What are the three types of probes
+How to check what permission is there what authentication i have in k8s
+
+
+Can VPC peering be used for 3 VPCs?
+
+Using VPC peering, A and B are connected, B and C are connected. Can A talk to C?
+
+Steps to resize an EBS volume attached to EC2.
+
+Roles and users in AWS to segregate users (Dev, QA).
+
+How to migrate from ECS to EKS.
+
+EFS vs EBS.
+
+How to create a user with a password in AWS CLI.
+
+How to prevent scheduling on a particular node.
+
+Facing many issues during a Kubernetes deployment. How to prevent these issues next time?
+
+How to make a replica highly available.
+
+How do I get rid of merge conflicts, what suggestions can I give to developers?
+
+In Jenkins, I have multiple stages, I want to run all stages at a time, how can I do it?
+
+My application is taking a long time to start and it gets terminated by Kubernetes, though all the nodes and pods are healthy. Why is my application terminated?
+
+How many triggers are there in a Lambda function?
+
+What is API Gateway used for?
+
+I have a Lambda function in AWS, there we have a handler. What is it?
+
+I have 2 VPCs in AWS and I need to establish a connection between them. How do I do it?
+
+I don’t have CI/CD, I want to deploy a Tomcat application manually. How do I do that?
+
+How to figure out which processes are eating up CPU and memory?
+
+What is the purpose of an internal load balancer in Kubernetes and give me a use case?
+
+What is the real-time usage of an internal load balancer? Where is it used?
+
+What is node pressure?
+
+How do you set resource limits in Kubernetes?
+
+Difference between EBS and EFS.
+
+What is a state file in Terraform?
+
+What is dynamic inventory?
+
+What are Ansible roles?
+
+What is a NAT gateway?
+
+How do we secure our Kubernetes?
+
+Canary deployment
+inject credential into jenkins pipeline to access aws and docker private repo
+
+
+[12:45 PM, 8/1/2025] Divya: Zero trust behaviour
+What is network policy?
+Node degradation — what to do when your node goes down?
+Ansible tool overview
+RDS troubleshooting in AWS
+Auto Scaling Groups explanation
+Kubernetes Secrets — what and how?
+How to update Kubernetes Secrets?
+Tainted node is scheduled but pods still scheduled — why?
+How to check node taints?
+Override should be at launch time — clarification
+What service do we use? (context missing)
+Launch configurations in Auto Scaling
+Kubernetes probes (liveness, readiness, startup)
+Custom Resource Definitions (CRDs) in Kubernetes
+Deployment strategies in Kubernetes
+Checklist if AWS region goes down
+Monitoring mechanisms — besides CloudWatch?
+GPU workloads — what and how?
+Shared libraries — what are they?
+Kubernetes Jobs — overview …
+[12:46 PM, 8/1/2025] Divya: Static Pods — What they are, how they work, their characteristics, and usage.
+How to switch between Kubernetes configurations — Different methods to switch kubeconfig files or contexts in Kubernetes, including using kubectl config use-context, KUBECONFIG environment variable, and the --kubeconfig flag.
+
+
+How do you pass variables during build?
+
+Explain the complete CI/CD process.
+
+Build queue is blocked. What would you do?
+
+What are branching strategies?
+
+What are deployment strategies?
+
+What are security features with respect to Docker images?
+
+What is a multi-stage build?
+
+If an init container is failing, what error will you get?
+
+What are restart policies?
+
+In PVC access mode is ReadWriteOnce, can multiple pods from the same node access it?
+
+What is a 429 error code (also 404, 500, 137)?
+
+What do you mean by custom resources?
+
+What are roles in Kubernetes?
+
+What is AWS Secrets Manager?
+
+Your application depends on S3 and a database. S3 has a global impact. How do you identify and resolve it?
+
+What is Git squash?
+
+What is a multi-stage build?
+
+How to optimize the container size?
+
+How do you do cost optimization in AWS?
+
+Static vs dynamic inventory.
+
+How to set up an EKS cluster using ENIConfig?
+
+1. EC2 Cost Optimization*: What are the best practices for optimizing the cost of running EC2 instances?
+2. *S3 Lifecycle Policy*: Explain the S3 lifecycle policy and how it can be configured to manage object storage efficiently.
+3. *S3 Cross-Region Replication*: How can cross-region replication be achieved in Amazon S3?
+4. *S3 Data Recovery*: If an object is accidentally deleted in S3, what steps can be taken to retrieve it?
+5. *S3 Access Denied Issue*: If a user has full access permissions to an S3 bucket but still receives an "Access Denied" error, what could be the potential causes, and how can they be resolved?
+6. *Lambda Timeout Handling*: If a Lambda function is timing out due to a process taking too long, what strategies can be used to …
+
+
+[11:46 AM, 8/4/2025] Divya: Jenkins CI CD 
+Jenkins CI CD stages 
+How pipeline trigger automatically 
+How the flow of u r CI CD 
+What are the env are there 
+I want to know the entire flow from dev to QA to preprod to prod 
+What are issues u have faced while working on Jenkins
+If Jenkins pipeline fails in build stage how you will trouble shoot?
+Maven repo related scenarios questions?
+
+Docker 
+
+What Dockerfile
+How do you write Dockerfile? 
+What type of apps are there ?
+How do you build an image?
+If I have not mentioned cmd and entry point will it run docker file ?
+
+Kubernetes
+
+What is kubernetes?
+What is deployment?
+What is the difference between service and ingress?
+What is the difference between configmap and secrets?
+How you will expose application on kubernetes?
+What is pod ?
+If we can store two containers in pod then what is use of second
+[11:47 AM, 8/4/2025] Divya: Jenkins Questions
+Declarative and Scripted pipeline for Jenkins
+How do you deploy in Jenkins particularly?
+How do you deploy QA and Dev environment in Jenkins?
+How do you give a user access to Jenkins?
+How to secure Jenkins?
+✅ Terraform Questions
+What does terraform plan do?
+How to update an EC2 instance without downtime using Terraform?
+What is lifecycle in Terraform?
+Explain Terraform lifecycle
+
+
+
+th Aug 2025:
+*****
+=================================================================================================================
+* what happens if we delete state file in terraform?
+* lambda is used to upload a files to s3 bucket and its getting timeout how to optimize ?
+* asg take good amount to become healthy ? how will you handle
+* blue-green deployment?
+* by mistake oyu commited credentials in GitHub how can you do it
+* security of kubernets services --> IAM, Security Group, VPC, & RBAC
+* s3 bucket montly bill is increasing every day , how will u optimize it?
+* production qa team figured out a bug, which happend due to last commit , who did it and rollback 
+* difference between CMD & EntryPoint
+* git repo cloned in local, new branch and making changes, somebody has mad changes and pushed to main , need to resolve merge conflict
+* how do you manage iam roles for larger team ?
+* kms key , suprivisor wants rotate every 6 months 
+* vpc, application --> trying to access 3rd party to access it --> need to check sg, nacl , even if the --> trace route, vpc flow log --> 
+organization traffic comes directly hobes --> to check where traffic is cutting down --> where my hob is cutting down
+* setup alarams --> cpu usage of 80% --> cloudwatch  --> set alrams for cpu > 80% -> set alram trigger --> you can define the endpoint ? 
+* have you worked on EKS ? what do you do when pod is stuck in pending state due to insuffiecent capacity
+* error handling in Jenkins
+* add a remote repo --> git remote add origin  --> perform all the actions
+* trigger the Jenkins pipeline on every push on main branch
+
+1----During production deployment, if there's a misconfigured YAML, it's more serious because it can cause downtime or broken services.
+     how you should handle it safely and profession???
+2----— if etcd is down in a Kubernetes cluster (like EKS or self-managed), it's a critical failure, how to handle it??
+3----if a developer deleted a file 15 days ago from a Git repo, how to recover it
+4--if your Jenkins master crashes, the goal is to restore Jenkins with all your jobs, plugins, and history, ideally with minimal or no downtime.how to do??
+5----how to set up a CI/CD pipeline that runs on every push to your main branch ??
+6---- U have a repo in GitHub u have to setup in your without cloning it
+7....How do you handle error in jenkins 
+8....In eks pod status is pending due to insufficient capacity what I have to do
+9....How to enable key rotation in AWS KMS 
+10...how to give multiple users or groups permission to assume an IAM role in AWS.
+11....U have cloned a repo u made new branch and u figured out some new changes made in remote and u want to bring changes in to your local repo how to do it
+12......Cmd and entry point 
+13....How to undo the commit in github
+14....I have s3 bucket I want to reduce the cost of my billing how??.
+15....You deleted a file in your GitHub repo, but you noticed that the commit history still shows the file. How to delete the commit history
+
+* what is statefile and what happens if some one deletes the state file .
+* we have auto scaling group, during peak time it is taking to long to scale how can i fix it
+* what is blue green deployment
+* difference between cmd and entrypoint
+* how do you manage iam access to larger teams
+* i have a kms key , every 6 months the key should be rotated ,how do you do that.
+* what happens in an organization when the traffic comes in hops, how i will come to know where my traffic broken.
+* If the traffic is reaching vpc and not hitting application, what is the cause and how can i fix it.
+* how do you set up alarms,how will come to know when a cpu usage goes above a limit.
+* what do you do when your pod is stuck in pending state due to insufficient capacities in eks.
+* how do you do error handling in jenkins
+* i have a repository in GitHub, i need to set up it in local system without git clone.
+* how do i deploy using Jenkins using a particular version from drop down.
+* there is developer, he deleted a file, no one remembers which is the file, how to find out which file was deleted and how to recover it.
+* by yaml syntax misconfiguration there is a production stoppage what you will do
+* explain end to end process from build till deployment in devops. explain with what all tools comes in the flow and how its done using the particular tool
+* what is pv and pvc
+* what is readwrite once
+* if i want to automate an application in kubernetes ,how do you do it
+* how do you make password less connection between 2 linux systems
+* what is state file in terraform, what happens if someone deletes it
+* what is local block used in terraform
+* what is data block in terraform
+* what is HPA in kubernetes
+* in jenkins pipeline,  what is the use of "when" parameter
+* difference between HTTP and HTTPS
+* what is crashloopbackoff error
+* how do control the access in kubernetes
+* how do you do error handling in jenkins
+* design a vpc for 3 tier application architecture, where do you keep the data base. what you will do if QA team and dev team want to access the data base when you have kept it in private subnet.
+* difference between list and tuple
+* how do you create s3 bucket using python sdk
+
+
+[11:35 AM, 8/5/2025] Divya: Here’s a list of the questions you’ve asked in this conversation so far:
+How do you start and stop the EC2 instance from Jenkins pipeline?
+What are the agent types in Jenkins?
+What are leaves and selectors? (Kubernetes labels and selectors)
+Contigmap and secrets? (ConfigMap and Secrets in Kubernetes)
+How does concurrency handled in Lambda?
+What is CloudWatch Log Insights?
+EKS how it is handles high availability?
+Securing your EKS cluster?
+Different between ReplicaSet and ReplicationController?
+Pod lifecycle?
+Doesn’t have access to the DynamoDB how do you check?
+Dry run?
+How to enable the shell script in a debugging mode?
+Geolocation routing policy?
+What are access modes in Kubernetes?
+If you want, I can provide a summary or deepe
+[11:36 AM, 8/5/2025] Divya: Kubernetes controllers
+How do you design an application on AWS?
+Branching strategies
+Agent types in Jenkins
+How to start and stop EC2 instances using Jenkins
+How to explain that in an interview
+Multi-stage Dockerfile
+What exactly happens during Docker image optimization?
+How to download a file during Docker build time?
+How to compress a file in Linux servers?
+What are labels and selectors in Kubernetes?
+Container lifecycle
+Ansible Tower
+Guaranteed QoS (in Kubernetes)
+What is EKS?
+EKS autoscaler cluster not scaling up pods
+How to troubleshoot autoscaler not scaling nodes in EKS
+
+
+[12:05 PM, 8/5/2025] +91 91646 16486: how do you check vulnerabilities in docker image?
+[12:21 PM, 8/5/2025] +91 91646 16486: 2. how will you deploy a new application in docker and k8s?
+[12:21 PM, 8/5/2025] +91 91646 16486: what is storage class in k8s?
+aws service catalog.
+how service catalog is different from cloud formation in aws?
+how would you create product catalog?
+what is state file in terraform?
+what are probes in k8s?
+i have an application which is going down after 30 min what probe will you configure to check the health ckeck the application?
+how does pod to pod communication happens in k8s?
+what is daemonset in k8s? tell some usecases.
+how will you login to a pod?
+what is workspace in terraform?
+softlink vs hardlink.
+how do you list opened ports in linux?
+create probes foe statefulset application?
+you have installed a softaware on 10 different vms how do you check weather th software is installed on each vms(ansible facts)?
+what is inline policy?
+what are guardails and types of guardails in aws?
+what is local and output variables in aws?
+what are state files in terraform?
+
+
+
+[9:25 AM, 8/8/2025] Divya: What is etcd degraded 
+2..What is parallel execution
+3..Have you ever configured jenkins port 
+4..What is jenkins version current 
+5..what is the latest version of k8s
+6.. how do you secure your containers 
+7..how do you pass the env variables during build time
+8..what is probes
+9..what are the namespaces in the linux container 
+10..what is ansible control tower
+11...what is kernel panic error
+12. ..what is linux distribution 
+13. What is 503 error
+14.what is http error
+15. What is qos
+16. What is custom resource definitions 
+
+
+
+1.Creates an S3 bucket.
+2.Creates an EC2 instance.
+3.Creates an IAM Role with a policy that grants the EC2 read/write access to the S3 bucket.
+4.Attaches the role to the EC2 instance.
+[9:26 AM, 8/8/2025] Khyathi Qa: 1...what is Interpreting pods between nodes
+2...what is api gateway 
+3...how to make etcd highly available and what algorithm is used
+4...whaat is cross account role 
+5...how make jenkins master node highly available 
+6...ecs and eks which is best for??
+7...what is trust policy in cross account role in aws
+8...give full step-by-step checklist to debug pod-to-pod communication — especially across nodes in Kubernetes.
+9...If you're using Auto Scaling Group (ASG) in AWS (especially with EKS or EC2), and
+9...If you're using Auto Scaling Group (ASG) in AWS (especially with EKS or EC2), and scaling is taking too long, how to optimize ASG for faster scaling — step by step??
+10...How many ways you can trigger a lambda function 
+11...How to check who deleted the state file
+12...U have state file in s3 and by mistake someone deleted it and now I want backup of only state file not resources
+13...What is the security ways to store the statefile 
+14...In jenkins what is difference between scripted n declarative pipeline 
+15...In jenkins what is shared libraries 
+16...Whaat is canary deployment 
+17...how to implement rollback deployment in Jenkins,
+18...What is the build versioning 
+19..What is hot fixes in git
+20...How scheduler decides in which node it should schedule the pod 
+21..Difference between taint tolerance and affinity and node affinity 
+22..What is stateful application 
+23...Whaat is rbac
+24..Whaat is service account in k8s
+25..what is namespace 
+26..How two services in different namespace can communicate each other 
+27..What is bottle neck
+28..what is lockfile in statefile
+
+
+1. you have s3 bucket, versioning is disabled, manually if i have enabled versioning what will happen when i do terraformplan next time
+2. what is a statefile in terraform
+3. you are assigned a task where you will detect failure before it happens, how do you predict it
+4. what is helmused for
+5. you have 2 services there is change planned tonight how the change can be handled
+6. strategies in databases
+7. you have aws resources where you run your applicaton, there is a product listed on your ecommerce site and suddenly the traffic increased what would youdo?
+8. if there is failure in one region how do you convince the team to have multiple region
+9. what is SLA and SLO
+10. you have k8s cluster, you need to decide 3 services to be running and communicate between each other,  which all services you will use
+11. you have to establish communication between 2 services running in different namespace ,how do you do it
+12. there is a recent change in RBAC,how do you roll back
+13. your etcd cluster is corrupted and you need to restore it without loosing any data. how do you do it
+14. what is helm
+15. what is statefile in terraform
+16. you are done for the day, you are waiting for developers for env variables, you have a sister application have same variables, you need to create the replica of secrets and configmap , how do you do.
+17. kubectl describe, what it does
+18. how asg and loadbalancer work together
+19. what is ttaint and toleration
+20. if you get merge conflicts , what suggestions you give to developers to reduce the merge conflicts
+21. difference btw revert and rebase
+22. how do you raise pr
+23. multiple ways to trigger lambda
+24. what is namespace
+25. when i hit DNS/UI i should get response from UI and when i hit DNS/api, i should get the response from API ,how do you do that
+26. what is nginx and what it is used for
+27. we have a namespace deleted how do you recover it.------> etcd backup
+28. how do your restore if someone has deleted main branch in git
+29. if you face an issue that the application is down from long time and not received any alerts, how you will check and debug though you have all monitoring tools configured
+30. what is ttl in devops
+31. what it does in route53
+32. you have cross cloud, the interconnect latency was 5 sec and now it is 80 sec, how do you figure out what is the issue 
+33. how do you check latency
+34. You have 30% of your ec2 instance not working, some are getting error and some are getting good response and traffic is working fine, what is happening here.
+
+1.DNS issue in k8s for all pods.Where to check?
+2.How to access a service from within cluster/enable communication using svcs
+3.ASG creating new scaling groups.But even before they are up,traffic is being assigned.How to prevent?
+4.pods getting deleted due to memory pressure but kubectl top shows plenty of memory.why?
+5.State file 
+6.Helm
+
+Introduce as a devops engineer?
+2---what is the role in your project?what was  project all about?
+3---how to setup monitoring
+4--how to secure k8s services?
+5--how to secure k8s using liveness and readiness probe
+6---someone has changed the password of database how to monitor it?
+7--explain rolling update and blue deployment and canary deployment?
+8---If your application (or EC2 instance) is in a private subnet, you can’t SSH directly from the internet how to ssh it?
+9--what is ingress controller?
+10---how to connect on-premises infrastructure to the cloud?
+11--you have a microservice that depends on a single availability zone resource (like a database, storage, or service) and you want to make it highly available across multiple AZs.how to do that?
+12--how to spread HPA (Horizontal Pod Autoscaler) pods across multiple Availability Zones in Kubernetes?
+13---what is pod toplogies
+14--what is sla
+15--what happens if you breach the sla?
+16---How do you start your day?
+17--how frequently u deploy an application?
+18---what is osi model?
+19---what is pv and pvc
+20-- what is statefile in terraform?
+21-- If you created a PersistentVolume (PV) and a PersistentVolumeClaim (PVC) but your Pod is stuck in Pending state,?? why??
